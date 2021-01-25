@@ -1,0 +1,43 @@
+.accordion__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    transition: opacity .5s cubic-bezier(.27,.64,.81,.75);
+}
+
+.accordion__header:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+.accordion__title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+
+.accordion__chevron {
+    
+    transition: transform .5s cubic-bezier(.27,.64,.81,.75);
+}
+
+.accordion__chevron_state_rotated {
+    transform: rotate(180deg);
+}
+
+#chevron {
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.accordion__content {
+    overflow: hidden;
+    transition: max-height .5s cubic-bezier(.27,.64,.81,.75);
+}

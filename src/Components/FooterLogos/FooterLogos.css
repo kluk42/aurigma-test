@@ -1,0 +1,67 @@
+.footer-logos {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-logos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+}
+
+.footer-logos__aurigma {
+    width: 108px;
+    height: 22px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-logos__aurigma {
+        margin: 0;
+        width: 141px;
+        height: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+.footer-logos__text {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(68, 68, 68, 1);
+}
+
+.footer-logos__link {
+    text-decoration: none;
+    color: rgba(48, 194, 255, 1);
+}
+
+.footer-logos__awards {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-logos__awards {
+        margin: 24px 0 0;
+    }
+}
+
+.footer-logos__award {
+    margin-right: 30px;
+    height: 42px;
+}
+
+.footer-logos__award:last-of-type {
+    margin-right: 0;
+}
+
+.footer-logos__award_type_ap-tech {
+    width: 106px;
+}
+
+.footer-logos__award_type_red-hot {
+    width: 60px;
+}

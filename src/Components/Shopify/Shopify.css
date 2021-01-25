@@ -1,0 +1,115 @@
+.shopify {
+    display: flex;
+    padding: 0 0 40px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .shopify {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.shopify__text-container {
+    width: 498px;
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .shopify__text-container {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .shopify__text-container {
+        align-self: initial;
+        order: 2;
+        width: 100%;
+    }
+}
+
+.shopify__header {
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .shopify__header {
+        align-self: initial;
+        order: 2;
+        line-height: 44px;
+        font-size: 36px;
+    }
+}
+
+.shopify__text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(85, 85, 85, 1);
+    margin: 20px 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .shopify__text {
+        margin: 24px 0;
+    }
+}
+
+.shopify__contact-button {
+    cursor: pointer;
+    width: 145px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(48, 194, 255, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+    transition: background-color .5s cubic-bezier(.27,.64,.81,.75);
+}
+
+.shopify__contact-button:hover {
+    background-color: rgba(48, 194, 255, .6);
+}
+
+.shopify__img {
+    width: 558px;
+    height: 558px;
+    margin-left: 90px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    .shopify__img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .shopify__img {
+        order: 1;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        max-width: 495px;
+        max-height: 495px;
+    }
+}
