@@ -13,3 +13,23 @@
         width: calc(290/320*100vw);
     }
 }
+
+.message-icon {
+    cursor: pointer;
+    position: fixed;
+    top: calc(50vh - 60px/2);
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    transition: opacity .5s cubic-bezier(.27,.64,.81,.75);
+}
+
+.message-icon:hover {
+    opacity: .6;
+} 
+
+@media screen and (max-width: 1920px) {
+    .message-icon {
+        display: none;
+    }
+}
