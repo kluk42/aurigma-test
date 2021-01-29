@@ -12,21 +12,21 @@ function Guidelines() {
             <li className="guidelines__list-item">
                 <article className="guideline">
                     <SvgDiscuss className="guideline__icon" />
-                    <h3 className="guideline__header">We create</h3>
+                    <h2 className="guideline__header">We create</h2>
                     <p className="guideline__text">We collect the requirements of your project. What kind of products you want to sell online and how do you want users to personalize it.</p>
                 </article>
             </li>
             <li className="guidelines__list-item">
                 <article className="guideline">
                     <SvgTag className="guideline__icon" />
-                    <h3 className="guideline__header">Discuss</h3>
+                    <h2 className="guideline__header">Discuss</h2>
                     <p className="guideline__text">We develop ready-to-go online storefront with online personalization capabilities based on your requirements.</p>
                 </article>
             </li>
             <li className="guidelines__list-item">
                 <article className="guideline">
                     <SvgShoppingCart className="guideline__icon" />
-                    <h3 className="guideline__header">Discuss</h3>
+                    <h2 className="guideline__header">Discuss</h2>
                     <p className="guideline__text">When the storefront is ready, you can start selling to your customers right away.</p>
                 </article>
             </li>
